@@ -1,4 +1,6 @@
-## Hello world, I'm Junior Sarmento👋
+# Hello world, I'm Junior Sarmento👋
+
+![Estudando programação](https://blog.explicae.com.br/wp-content/uploads/2021/07/digitando-estudando.gif)
 
 <!--
 **sarmentojr/sarmentojr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
