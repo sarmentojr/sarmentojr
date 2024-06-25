@@ -2,7 +2,7 @@
 
 ![Estudando programação](https://blog.explicae.com.br/wp-content/uploads/2021/07/digitando-estudando.gif)
 ---------------------------------
-
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=radical)
 <!--
 **sarmentojr/sarmentojr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
