@@ -1,0 +1,151 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO+fKMmXpO9LQe2VNNHBWdz",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sarmentojr/sarmentojr/blob/main/Calculadora\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 807
+        },
+        "id": "LJasrXznr5VH",
+        "outputId": "0df51954-6b5a-47d0-8611-5a334e3eeafb"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Calculadora Simples\n",
+            "1. Soma\n",
+            "2. Subtração\n",
+            "3. Multiplicação\n",
+            "4. Divisão\n",
+            "5. Sair\n",
+            "Escolha uma opção: 2\n",
+            "Número 1: 5\n",
+            "Número 2: 6\n",
+            "5.0 - 6.0 = -1.0\n",
+            "Calculadora Simples\n",
+            "1. Soma\n",
+            "2. Subtração\n",
+            "3. Multiplicação\n",
+            "4. Divisão\n",
+            "5. Sair\n",
+            "Escolha uma opção: 4\n",
+            "Número 1: 2\n",
+            "Número 2: 0\n",
+            "Erro: Divisão por zero!\n",
+            "Calculadora Simples\n",
+            "1. Soma\n",
+            "2. Subtração\n",
+            "3. Multiplicação\n",
+            "4. Divisão\n",
+            "5. Sair\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "KeyboardInterrupt",
+          "evalue": "Interrupted by user",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-4-5809fbb5d001>\u001b[0m in \u001b[0;36m<cell line: 15>\u001b[0;34m()\u001b[0m\n\u001b[1;32m     21\u001b[0m   \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"5. Sair\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     22\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 23\u001b[0;31m   \u001b[0mescolha\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Escolha uma opção: \"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     24\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     25\u001b[0m   \u001b[0;32mtry\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.10/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m    849\u001b[0m                 \u001b[0;34m\"raw_input was called, but this frontend does not support input requests.\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    850\u001b[0m             )\n\u001b[0;32m--> 851\u001b[0;31m         return self._input_request(str(prompt),\n\u001b[0m\u001b[1;32m    852\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    853\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_header\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.10/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m    893\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    894\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 895\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Interrupted by user\"\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    896\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0me\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    897\u001b[0m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlog\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwarning\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Invalid Message:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mexc_info\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: Interrupted by user"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "def soma(x, y):\n",
+        "  return x + y\n",
+        "\n",
+        "def subtracao(x, y):\n",
+        "  return x - y\n",
+        "\n",
+        "def multiplicacao(x, y):\n",
+        "  return x * y\n",
+        "\n",
+        "def divisao(x, y):\n",
+        "  if y == 0:\n",
+        "    raise ZeroDivisionError(\"Erro: Divisão por zero!\")\n",
+        "  return x / y\n",
+        "\n",
+        "while True:\n",
+        "  print(\"Calculadora Simples\")\n",
+        "  print(\"1. Soma\")\n",
+        "  print(\"2. Subtração\")\n",
+        "  print(\"3. Multiplicação\")\n",
+        "  print(\"4. Divisão\")\n",
+        "  print(\"5. Sair\")\n",
+        "\n",
+        "  escolha = input(\"Escolha uma opção: \")\n",
+        "\n",
+        "  try:\n",
+        "    escolha = int(escolha)\n",
+        "  except ValueError:\n",
+        "    print(\"Opção inválida!\")\n",
+        "    continue\n",
+        "\n",
+        "  if escolha == 1:\n",
+        "    num1 = float(input(\"Número 1: \"))\n",
+        "    num2 = float(input(\"Número 2: \"))\n",
+        "    print(f\"{num1} + {num2} = {soma(num1, num2)}\")\n",
+        "\n",
+        "  elif escolha == 2:\n",
+        "    num1 = float(input(\"Número 1: \"))\n",
+        "    num2 = float(input(\"Número 2: \"))\n",
+        "    print(f\"{num1} - {num2} = {subtracao(num1, num2)}\")\n",
+        "\n",
+        "  elif escolha == 3:\n",
+        "    num1 = float(input(\"Número 1: \"))\n",
+        "    num2 = float(input(\"Número 2: \"))\n",
+        "    print(f\"{num1} * {num2} = {multiplicacao(num1, num2)}\")\n",
+        "\n",
+        "  elif escolha == 4:\n",
+        "    try:\n",
+        "      num1 = float(input(\"Número 1: \"))\n",
+        "      num2 = float(input(\"Número 2: \"))\n",
+        "      print(f\"{num1} / {num2} = {divisao(num1, num2)}\")\n",
+        "    except ZeroDivisionError as e:\n",
+        "      print(e)\n",
+        "\n",
+        "  elif escolha == 5:\n",
+        "    print(\"Saindo...\")\n",
+        "    break\n",
+        "\n",
+        "  else:\n",
+        "    print(\"Opção inválida!\")"
+      ]
+    }
+  ]
+}
